@@ -1,3 +1,4 @@
+// Simple placeholder; replace with a real list/filter
 export const profanity = {
-  detect: (text: string) => false
+  detect: (_text: string) => false
 };
