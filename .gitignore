@@ -1,21 +1,6 @@
-# Do NOT commit this file.
-
-DATABASE_URL=postgres://user:pass@host:5432/wishcloud
-CORS_ORIGIN=http://localhost:3000
-PORT=3000
-
-# Supabase (set these from your project)
-SUPABASE_URL=
-SUPABASE_ANON_KEY=
-SUPABASE_SERVICE_ROLE_KEY=
-SUPABASE_JWKS_URL=${SUPABASE_URL}/auth/v1/keys
-
-# Cloudflare R2
-R2_ACCOUNT_ID=
-R2_ACCESS_KEY_ID=
-R2_SECRET_ACCESS_KEY=
-R2_BUCKET=
-R2_PUBLIC_BASE_URL=
-
-# Optional: Redis URL for production rate limiting
-REDIS_URL=
+node_modules
+dist
+.env
+.env.local
+.DS_Store
+coverage
